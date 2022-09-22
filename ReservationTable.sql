@@ -1,5 +1,5 @@
 Create Table Reservation(
-                        Id int primary key not null ,
+                        Id int Identity(1000,1) primary key not null ,
 						TrainId int,
 						UserId int,
 						PassengerId int,
